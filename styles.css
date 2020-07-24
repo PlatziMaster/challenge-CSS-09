@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    height: 60px;
+    background-color: #6221ea;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.21);
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.21);
+    
+    
+}
+.header__title {
+    color: white;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.container {
+    flex: 1;
+    width: 100%;
+}
+.principal-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.principal-section__menu {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    -webkit-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.21);
+    box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.21);
+}
+.principal-section__menu--icon {    
+    /* padding-bottom: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    cursor: pointer;
+    width: 70px;
+    /* height: 60px; */
+}
+.principal-section__menu--icon-text {
+    margin: 0;
+    padding-top: 5px;
+    font-weight: 600;
+    color: #6221ea;
+    opacity: 1;
+}
+
+.principal-section__menu--big-icon {
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: turquoise;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.21);
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.21);
+    cursor: pointer;
+}
+.principal-section__menu--big-icon:hover  {
+    background-color: #6221ea;
+    transition: .5s;
+}
+.principal-section__menu--big-icon img{
+    width: 30px;
+    height: 30px;
+}
+.principal-section__menu--icon-folder{
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid black; */
+    background: url('http://monsterbranding.com.mx/images/folder.png');
+    background-size: cover;
+}
+.principal-section__menu--icon-clock {
+    width: 25px;
+    height: 25px;
+    /* border: 1px solid black; */
+    background: url('http://monsterbranding.com.mx/images/clock.png');
+    background-size: cover;
+}
+.principal-section__menu--icon-images{
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid black; */
+    background: url('http://monsterbranding.com.mx/images/photo-m.png');
+    background-size: cover;
+    margin-bottom: 5px;
+}
+.principal-section__menu--icon-videos{
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid black; */
+    background: url('http://monsterbranding.com.mx/images/movies.png');
+    background-size: cover;
+}
+
+.principal-section__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.principal-section__content--title h2{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: 2px;
+    color: dimgray;
+}
+.principal-section__content--photos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.principal-section__content--photos-card img {
+    max-width: 400px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin: 5px;
+}
+.footer {
+    height: 100px;
+    background-color: indigo;
+    width: 100%;
+}
+@media (max-width: 900px ) {
+    .principal-section__content--photos-card img {
+        max-width: 100%;
+        margin: 5px 0;
+    }
+}

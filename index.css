@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  width: 100vw;
+  position: relative;
+  padding: 20px 40px;
+  z-index: 1;
+  color: white;
+  background-color: #6200EE;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.header h1 {
+  font-size: 1.5em;
+}
+.container {
+  display: flex;
+  width: 100vw;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 8%;
+  list-style: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navbar__item--button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 1em 0;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #03DAC5;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition: .5s;
+}
+.navbar__item--button:hover {
+  color: white;
+  background-color: #6200EE;
+}
+.navbar__item {
+  margin: 1em 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  transition: .2s;
+}
+.navbar__item:hover {
+  color: #6200EE;
+}
+.carousel-container {
+  overflow: hidden;
+  width: 92%;
+}
+.carousel {
+  margin-top: 3em;
+  margin-left: 2em;
+}
+.carousel__title {
+  color: rgba(0, 0, 0, 0.5);
+}
+.carousel__images {
+  display: flex;
+  margin-top: 1em;
+  overflow-x: scroll;
+}
+.carousel__img {
+  height: 300px;
+  margin-right: 5px;
+}
+.carousel__img img {
+  height: 100%;
+  object-fit: contain;
+}
+.carousel__images::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+.carousel__images::-webkit-scrollbar-thumb{
+  background: #ccc;
+  border-radius: 4px;
+}
+.carousel__images::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.carousel__images::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+}

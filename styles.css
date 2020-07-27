@@ -86,35 +86,119 @@ body {
     width: 30px;
     height: 30px;
 }
+
+/* hover archives */
 .principal-section__menu--icon-folder{
     width: 30px;
     height: 30px;
+    margin-bottom: 5px;
     /* border: 1px solid black; */
     background: url('http://monsterbranding.com.mx/images/folder.png');
     background-size: cover;
 }
+.principal-section__menu--icon-text-folder::before {
+    content: "Archives";
+    color: transparent;
+    transition: .5s;
+}
+.principal-section__menu--icon:hover .principal-section__menu--icon-folder{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+    /* border: 1px solid black; */
+    background: url('http://monsterbranding.com.mx/images/folder-m.png');
+    background-size: cover;
+}
+.principal-section__menu--icon:hover .principal-section__menu--icon-text-folder::before {
+    content: "Archives";
+    color:#6221ea;
+    transition: .5s;
+}
+/* hover Recents */
 .principal-section__menu--icon-clock {
     width: 25px;
     height: 25px;
+    margin-bottom: 5px;
     /* border: 1px solid black; */
     background: url('http://monsterbranding.com.mx/images/clock.png');
     background-size: cover;
 }
+.principal-section__menu--icon-text-clock::before{
+    content: "Recents";
+    color: transparent;
+    transition: .5s;
+}
+.principal-section__menu--icon:hover .principal-section__menu--icon-clock{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+    /* border: 1px solid black; */
+    background: url('http://monsterbranding.com.mx/images/clock-m.png');
+    background-size: cover;
+}
+.principal-section__menu--icon:hover  .principal-section__menu--icon-text-clock::before{
+    content: "Recents";
+    color: #6221ea;
+    transition: .5s;
+}
+
+/* hover images */
 .principal-section__menu--icon-images{
     width: 30px;
     height: 30px;
     /* border: 1px solid black; */
+    background: url('http://monsterbranding.com.mx/images/photo.png');
+    background-size: cover;
+    margin-bottom: 5px;
+    transition: .5s;
+}
+.principal-section__menu--icon-text-images::before{
+    content: "Images";
+    color: white;
+    transition: .5s;
+}
+.principal-section__menu--icon:hover .principal-section__menu--icon-images{
+    width: 30px;
+    height: 30px;
     background: url('http://monsterbranding.com.mx/images/photo-m.png');
     background-size: cover;
     margin-bottom: 5px;
+    transition: .5s;
 }
+.principal-section__menu--icon:hover .principal-section__menu--icon-text-images::before {
+    content: "Images";
+    color: #6221ea ;
+    transition: .5s;
+}
+/* hover videos */
 .principal-section__menu--icon-videos{
     width: 30px;
     height: 30px;
     /* border: 1px solid black; */
     background: url('http://monsterbranding.com.mx/images/movies.png');
     background-size: cover;
+    margin-bottom: 5px;
+    transition: .5s;
 }
+.principal-section__menu--icon-text-videos::before{
+    content: "Videos";
+    color: white;
+    transition: .5s;
+}
+.principal-section__menu--icon:hover .principal-section__menu--icon-videos{
+    width: 30px;
+    height: 30px;
+    background: url('http://monsterbranding.com.mx/images/movies-m.png');
+    background-size: cover;
+    margin-bottom: 5px;
+    transition: .5s;
+}
+.principal-section__menu--icon:hover .principal-section__menu--icon-text-videos::before {
+    content: "Videos";
+    color: #6221ea ;
+    transition: .5s;
+}
+/* ///hover videos */
 
 .principal-section__content {
     display: flex;

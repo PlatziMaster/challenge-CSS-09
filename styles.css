@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+:root {
+  --blue-color: #6002ee;
+  --gray-color: #5e6367;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e5e5;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+main {
+  width: 70%;
+  height: 90%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header {
+  width: 100%;
+  height: 10%;
+  background-color: var(--blue-color);
+  display: flex;
+  align-items: center;
+}
+.header__title {
+  font-size: 2em;
+  color: white;
+  margin: 0 1em;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 10%;
+  height: 90%;
+  border-right: solid 1px rgba(94, 99, 103, 0.6);
+}
+.button-container {
+  margin: 20px 0;
+  height: 10%;
+}
+.button-container button {
+  background-color: var(--blue-color);
+}
+.icons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  min-height: 80%;
+  color: var(--gray-color);
+}
+.icons-container span {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+.menu__icon {
+  font-size: 2em;
+}
+.menu__icon__title {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+.button-container button:active {
+  background-color: var(--gray-color);
+}
+.icons-container div:hover {
+  color: var(--blue-color);
+  transform: scale(1.2);
+}
+.content {
+  width: 90%;
+  height: 90%;
+  padding-left: 20px;
+  padding-top: 30px;
+  overflow: hidden;
+}
+.content h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: var(--gray-color);
+}
+.content--today {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  margin-bottom: 20px;
+}
+.content img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.content--today img {
+  flex: 1 0 auto;
+  max-height: 85%;
+  min-height: 85%;
+}
+.content--past-week {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 40%;
+}
+
+.content--past-week img:nth-child(1) {
+  flex: 2 1 auto;
+}
+.content--past-week img:nth-child(2) {
+  flex: 0.5 1 auto;
+}
+.content--past-week img:nth-child(3) {
+  flex: 0.5 1 auto;
+}

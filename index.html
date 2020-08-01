@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Challenge CSS 09</title>
+  </head>
+  <body>
+    <main>
+      <section class="header"><h1 class="header__title">Images</h1></section>
+      <section class="menu">
+        <div class="button-container">
+          <button class="mdc-fab" aria-label="Favorite">
+            <div class="mdc-fab__ripple"></div>
+            <span class="mdc-fab__icon material-icons">add</span>
+          </button>
+        </div>
+        <div class="icons-container">
+          <div>
+            <span class="material-icons menu__icon">folder</span>
+            <span class="menu__icon__title">Folder</span>
+          </div>
+          <div>
+            <span class="material-icons menu__icon">schedule</span>
+            <span class="menu__icon__title">Calendar</span>
+          </div>
+          <div>
+            <span class="material-icons menu__icon">perm_media</span>
+            <span class="menu__icon__title">Images</span>
+          </div>
+          <div>
+            <span class="material-icons menu__icon">library_music</span>
+            <span class="menu__icon__title">Music</span>
+          </div>
+        </div>
+      </section>
+      <section class="content">
+        <h3>Today</h3>
+        <div class="content--today">
+          <img src="img/road.jpg" alt="" />
+          <img src="img/halcyon.jpg" alt="" />
+        </div>
+        <h3>Past Week</h3>
+        <div class="content--past-week">
+          <img src="img/forest.jpg" alt="" />
+          <img src="img/fall.jpg" alt="" />
+          <img src="img/bench.jpg" alt="" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('./icomoon/fonts/icomoon.eot?eeobav');
+    src:  url('./icomoon/fonts/icomoon.eot?eeobav#iefix') format('embedded-opentype'),
+      url('./icomoon/fonts/icomoon.ttf?eeobav') format('truetype'),
+      url('./icomoon/fonts/icomoon.woff?eeobav') format('woff'),
+      url('./icomoon/fonts/icomoon.svg?eeobav#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-add:before {
+    content: "\e902";
+  }
+  .icon-library_music:before {
+    content: "\e901";
+  }
+  .icon-collections:before {
+    content: "\e900";
+  }
+  .icon-photo_library:before {
+    content: "\e900";
+  }
+  .icon-folder:before {
+    content: "\e92f";
+  }
+  .icon-clock:before {
+    content: "\e94e";
+  }
+   
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.header {
+    border: 1px transparent #7028a5;
+    background-color: #7028a5;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    height: 50px;
+    margin: 20px 20px 0 20px;
+    padding-left: 10px;
+    width: 100%;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+}
+.main_side-bar {
+    border: .5px solid #ada8a8;
+    padding: 15px;
+}
+.main_side-bar p {
+    color: #7028a5;
+    font-size: 25px;
+    padding: 20px;
+}
+.main_side-bar p:hover {
+    border-radius: 50%;
+    color: white;
+    background-color: #7028a5;
+}
+.main_cont {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-left: 15px;
+    width: 100%;
+}
+.seg_cont {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.seg_cont h4 {
+    color: #6f6d6d;
+    text-transform: uppercase;
+    width: 100%;
+}
+.seg_cont p {
+    margin: 0px 8px;
+    width: 40%;
+}
+.seg_cont p img{
+    width: 100%;
+}

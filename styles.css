@@ -1,0 +1,128 @@
+:root {
+  --color-purple: #6002ee;
+  --color-white: #ffffff;
+  --color-green: #03dac5;
+  --color-gray: #5e6367;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--color-white);
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.header {
+  background-color: var(--color-purple);
+  color: var(--color-white);
+  padding: 24px;
+  box-shadow: 0px 4px 8px rgba(10, 10, 10, 0.5);
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 6% 1fr;
+  width: 100%;
+  min-height: 90vh;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 32px 8px;
+  grid-column-start: 1;
+  border-right: 1px solid var(--color-gray);
+}
+
+.add {
+  margin-bottom: 40px;
+  border-radius: 80px;
+  background-color: var(--color-green);
+  padding: 24px;
+  box-shadow: 0px 4px 8px rgba(10, 10, 10, 0.5);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 0.65;
+  color: var(--color-gray);
+  transition: all 0.5s;
+}
+
+.add:hover {
+  cursor: pointer;
+  background-color: var(--color-purple);
+  color: var(--color-white);
+}
+
+.principal {
+  grid-column-start: 2;
+  padding: 32px;
+}
+
+.images__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.images__container h5 {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-gray);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.images {
+  margin: 8px;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    margin-top: 40px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+.images img {
+  width: 720px;
+  height: auto;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  margin: 32px 0;
+  color: var(--color-gray);
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.icon-box img {
+  max-width: 40px;
+}
+
+.icon-box:hover {
+  transform: scale(1.1);
+}
+
+.icon-box h6 {
+  color: var(--color-purple);
+  font-size: 24px;
+}

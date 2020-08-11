@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+nav {
+  background: #3282b8;
+  width: 80px;
+  height: 100vh;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 10px;
+}
+li {
+  justify-self: center;
+  align-self: center;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+img:hover {
+  cursor: pointer;
+}

@@ -5,7 +5,7 @@ body{
 }
 header {
   background-color: #6002EE;
-  max-width: 800px;
+  max-width: 900px;
   height: 50px;
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@ header {
 }
 .card {
   margin: 0;
-  width: 800;
+  width: 900;
   height: 500px;
   background-color: white;  
   display: flex;  
@@ -30,13 +30,17 @@ header {
   height: 500px;
 }
 img {
-  margin: 10px;  
+  margin: 10px;
 }
 
 .image-text {  
   margin-bottom: 0;
 }
 
+.card__today-side--left-img1{
+  width: 300px;
+  height: 200px;
+}
 .first-button{
   width: 50px;
   height: 50px;
@@ -73,6 +77,11 @@ span {
   margin-bottom: 10px;
   font-size: 9px;
 }
+
+a{
+  margin: 0;
+  padding: 0;
+}
 nav {
   /* background: width; */
   padding-top: 15px;
@@ -92,7 +101,7 @@ nav {
   width: 610px;
   height: 200px;
   margin-top: 40px;
-  margin-left: 10px;
+  margin-left: 1px;
 }
 
 .card__today-side--left {
@@ -100,7 +109,7 @@ nav {
   height: 200px;
   border-style: 1px solid black;
   background-color: pink;
-  margin-right: 5px;
+  margin-right: 1px;
   margin-bottom: 70px;
 }
 
@@ -115,8 +124,8 @@ nav {
   border-style: 1px solid red;
   display: flex;
   flex-wrap: wrap;
-  width: 610px;
-  margin-left: 10px;
+  width: 800px;
+  margin-left: 1px;
 }
 
 .card__past-week-side--left {
@@ -124,20 +133,24 @@ nav {
   height: 200px;
   border-style: 1px solid black;
   background-color: yellow;
-  margin-right: 5px;
+  margin-right: 1px;
+  
 }
 
 .card__past-week-side--center {
-  width: 150px;
+  width: 146px;
   height: 200px;
   border-style: 1px solid black;
   background-color: blue;
-  margin-right: 5px;
+  margin-right: 1px;
+  
 }
 
 .card__past-week-side--right {
-  width: 150px;
+  width: 146px;
   height: 200px;
+  /* margin: 5px; */
+  
   border-style: 1px solid black;
   background-color: red;
 }

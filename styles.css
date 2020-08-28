@@ -1,0 +1,156 @@
+body{
+  width: 800px;
+  margin: 0;
+  
+}
+header {
+  background-color: #6002EE;
+  max-width: 900px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-left: 10px;  
+}
+.nav-card{
+  display: flex;
+  height: 200px;
+}
+.card {
+  margin: 0;
+  width: 900;
+  height: 500px;
+  background-color: white;  
+  display: flex;  
+  flex-wrap: wrap;
+}
+
+.vertical-line{
+  border-left: thin solid #e5e5e5;
+  height: 500px;
+}
+img {
+  margin: 10px;
+}
+
+.image-text {  
+  margin-bottom: 0;
+}
+
+.card__today-side--left-img1{
+  width: 300px;
+  height: 200px;
+}
+.first-button{
+  width: 50px;
+  height: 50px;
+}
+p{
+  margin-top:0 ;
+  text-align: center;
+  color: #6002EE;
+}
+span {
+  margin-top:0 ;
+  font-size: 0.8em ;  
+  vertical-align: text-top;
+
+}
+
+.h6-top{
+  width: 500px;
+  height: 10px;
+  margin: 0;
+  padding:0;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: -20px;
+  font-size: 9px;
+}
+.h6-bottom{
+  width: 500px;
+  height: 10px;
+  margin: 0;
+  padding:0;
+  /* margin-left: 10px;*/
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 9px;
+}
+
+a{
+  margin: 0;
+  padding: 0;
+}
+nav {
+  /* background: width; */
+  padding-top: 15px;
+  width: 80px;
+  /* height: 200px; */
+  /* margin-top: 0; */
+  display: flex; 
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+
+.card__today {
+  border-style: 1px solid black;
+  display: flex;
+  width: 610px;
+  height: 200px;
+  margin-top: 40px;
+  margin-left: 1px;
+}
+
+.card__today-side--left {
+  width: 300px;
+  height: 200px;
+  border-style: 1px solid black;
+  background-color: pink;
+  margin-right: 1px;
+  margin-bottom: 70px;
+}
+
+.card__today-side--right {
+  width: 305px;
+  height: 200px;
+  border-style: 1px solid black;
+  background-color: green;
+}
+
+.card__past-week {
+  border-style: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  margin-left: 1px;
+}
+
+.card__past-week-side--left {
+  width: 300px;
+  height: 200px;
+  border-style: 1px solid black;
+  background-color: yellow;
+  margin-right: 1px;
+  
+}
+
+.card__past-week-side--center {
+  width: 146px;
+  height: 200px;
+  border-style: 1px solid black;
+  background-color: blue;
+  margin-right: 1px;
+  
+}
+
+.card__past-week-side--right {
+  width: 146px;
+  height: 200px;
+  /* margin: 5px; */
+  
+  border-style: 1px solid black;
+  background-color: red;
+}

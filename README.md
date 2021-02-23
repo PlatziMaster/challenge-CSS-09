@@ -4,7 +4,7 @@ Flexbox: Navigation rail
 
 ## 🏆 Challenge Done!
 
-- Deploy: Mira el resultado en producción [aquí](https://hectordevx.github.io/css-09__challenge/)
+- Deploy 🚀: Mira el resultado en producción [aquí](https://hectordevx.github.io/css-09__challenge/)
 
 <kbd>
 <img width="800" src="/assets/result.png" alt="Resultado Final">
